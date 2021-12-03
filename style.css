@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;1,100;1,400;1,500&display=swap');
+.banner {
+  background-image: url("/img.jpeg");
+  background-size: cover;
+  padding: 120px 0;
+  font-family: "Montserrat Alternates";
+  font-style: italic;
+  color: #f3efe2;
+  text-align: left
+}
+body {
+  margin: 0;
+  background-color: #f4f2f3;
+}
+.container {
+  display: block;
+  width: 700px;
+  margin: 50px 150px;
+  font-family: "Montserrat Alternates";
+  font-size: 20px;
+  color: #3c504c;
+  font-weight: 400;
+}
+#text_banner {
+   font-size: 38px;
+   font-weight: 500;
+   margin-left: 18%;
+   color: #F0E9D2;
+   width: 700px;
+}
+#subtext_banner {
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: 18%;
+  color: #F0E9D2;
+  width: 700px;
+}
+a {
+  text-decoration: none;
+  font-size: 25px;
+  font-style: 28px;
+  color: #3c504c;
+  font-style: italic;
+  font-weight: 400;
+}
+a:hover {
+  background-image: linear-gradient(to bottom, #c9d6c0, #c1cfb5);
+}
+p {
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 580px;
+    margin: 30px auto;
+    font-size: 20px;
+  }
+  .banner {
+    background-size: 992px;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+  }
+  #text_banner {
+    font-size: 28px;
+  }
+  #subtext_banner {
+    font-size: 20px;
+  }
+  a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 450px;
+    margin: 20px auto;
+    font-size: 18px;
+  }
+   .banner {
+    background-size: 768px;
+    background-repeat: no-repeat;
+    padding: 20px 0;
+  }
+  #text_banner {
+    font-size: 22px;
+  }
+  #subtext_banner {
+    font-size: 18px;
+  }
+   a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
+    margin: 10px auto;
+    font-size: 12px;
+  }
+   .banner {
+    background-size: 576px;
+    background-repeat: no-repeat;
+    padding: 8px 0;
+  }
+  #text_banner {
+    font-size: 15px;
+  }
+  #subtext_banner {
+    font-size: 12px;
+  }
+   a {
+    font-size: 15px;
+  }
+}
