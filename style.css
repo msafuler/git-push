@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;1,100;1,400;1,500&display=swap');
 .banner {
-  background-image: url("/img.jpeg");
+  background-image: url("img.jpeg");
   background-size: cover;
   padding: 120px 0;
   font-family: "Montserrat Alternates";
